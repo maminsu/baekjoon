@@ -1,12 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int year;
-    scanf("%d", &year);
-    if((year % 4 ==0) && (year % 100 == 0) && (year % 400 == 0)){
-    	printf("1\n");
-	}else{
-		printf("0\n");
+	int year;
+	scanf("%d", &year);
+	if ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0))
+	{
+		printf("%d\n",1);
 	}
-    return 0;
+	else
+	{
+		printf("%d\n",0);
+	}
+	return 0;
 }
