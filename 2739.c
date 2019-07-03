@@ -1,10 +1,10 @@
-#include<stido.h>
-
+#include<stdio.h>
 int main(void)
 {
-    scanf("%d %d", &N, %a )
-    for (int a = 1; a <= 9; a++) {
-    printf ("%d*%d=%d\n", N, a, N*a)
+    int N;
+    scanf("%d", &N);
+    for (int i = 1; i <= 9; i++) {
+    printf ("%d*%d=%d\n", N, i, N*i);
     }
     return 0;
 }
